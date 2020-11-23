@@ -18,7 +18,7 @@ def userInput():
         continueWithGenericFile = continueWithGenericFile.upper()
         if continueWithGenericFile != "Y" :
             exit()
-        ecg = pd.read_excel("electrocardiograma.xlsx")
+        ecg = pd.read_excel("https://raw.githubusercontent.com/IEEESBITBA/Curso-Python/master/Clase_4_datos/electrocardiograma.xlsx")
     # Input del sexo (válido) del paciente
     while True:
         sex = input("Ingrese el sexo del paciente (M/F)\n")
